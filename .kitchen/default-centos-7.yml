@@ -1,0 +1,9 @@
+---
+username: centos
+auto_security_group_id: sg-0b78a98c21d4c4539
+auto_key_id: kitchen-defaultcentos7-dbondarenko-UAPCDBONDARENK-2019-12-27T16:31:27Z-4oprnsrs
+ssh_key: D:/wp-cookbook/.kitchen/default-centos-7.pem
+server_id: i-02ef930ae489998fc
+hostname: ec2-54-89-238-57.compute-1.amazonaws.com
+last_action: create
+last_error: 

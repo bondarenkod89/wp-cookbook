@@ -16,6 +16,10 @@ ruby_block "wordpress" do
     action :create
 end
 
+file '/var/www/html/wp-config.php' do
+  action :create
+end
+
 template '/var/www/html' do
   source 'wp-config.php.erb'
 end
