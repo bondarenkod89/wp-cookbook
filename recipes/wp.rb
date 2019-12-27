@@ -20,7 +20,7 @@ file '/var/www/html/wp-config.php' do
   action :create
 end
 
-template '/var/www/html' do
+template '/var/www/html/wp-config.php' do
   source 'wp-config.php.erb'
 end
 
