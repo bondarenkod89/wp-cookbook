@@ -7,9 +7,9 @@
 execute 'php7.2' do
     command <<-EOF
     yum update -y && yum upgrade -y
-    yum install epel-release yum-utils
-    yum install http://rpms.remirepo.net/enterprise/remi-release-7.rpm
-    yum-config-manager --enable remi-php72
+    yum install epel-release yum-utils -y
+    yum install http://rpms.remirepo.net/enterprise/remi-release-7.rpm -y
+    yum-config-manager --enable remi-php72 -y
     EOF
 end
 
